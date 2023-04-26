@@ -11,14 +11,3 @@
 
 'Enterprise Boundary
 !$ENTERPRISE_BOUNDARY_COLOR ?= "#"00154B"
-
-'Tags
-!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
-!define FONTAWESOME https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/font-awesome-5
-!include FONTAWESOME/users.puml
-AddPersonTag("multi-user", $sprite="users", $legendText="group")
-AddElementTag("robot", $sprite="robot", $legendText="robot")
-AddRelTag("async", $techn="async", $lineStyle=DottedLine(), $legendText="asynchronous (dotted)")
-AddRelTag("external", $lineColor="#ca911b", $textColor="#ca911b", $legendText="external relationship")
-AddBoundaryTag("boundaryRed", $fontColor="#76002e", $borderColor="#76002e")
-AddBoundaryTag("boundaryPurple", $fontColor="#5E006E", $borderColor="#5E006E")

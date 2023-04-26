@@ -2,13 +2,15 @@
 !define FONTAWESOME https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/font-awesome-5
 !include FONTAWESOME/users.puml
 
-'Styles
+'Tags
 AddPersonTag("multi-user", $sprite="users", $legendText="group")
 AddElementTag("robot", $sprite="robot", $legendText="robot")
 AddRelTag("async", $techn="async", $lineStyle=DottedLine(), $legendText="asynchronous (dotted)")
 AddRelTag("external", $lineColor="#ca911b", $textColor="#ca911b", $legendText="external relationship")
 AddBoundaryTag("boundaryRed", $fontColor="#76002e", $borderColor="#76002e", $legendText="custom boundary red")
 AddBoundaryTag("boundaryPurple", $fontColor="#5E006E", $borderColor="#5E006E", $legendText="custom boundary purple")
+
+'Styles
 UpdateElementStyle("boundary", $fontColor="#00AA55", $borderColor="#00AA55", $legendText="default boundary")
 UpdateBoundaryStyle("enterprise", $fontColor="#00154b", $borderColor="#00154b")
 UpdateBoundaryStyle("container", $fontColor="#2971b7", $borderColor="#2971b7")
