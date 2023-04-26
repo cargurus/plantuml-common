@@ -1,4 +1,4 @@
-!$THEME = "CarGurus_C4_Default"
+!$THEME = "CarGurus-C4-default"
 
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
 !define FONTAWESOME https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/font-awesome-5
