@@ -1,13 +1,9 @@
 !$THEME = "CarGurus-C4-default"
 
-'Default Boundary
 !$BOUNDARY_COLOR ?= "#00AA55"
 
-'Container Boundary
 !$CONTAINER_BOUNDARY_COLOR ?= "#2971B7"
 
-'System Boundary
 !$SYSTEM_BOUNDARY_COLOR ?= "#0C4984"
 
-'Enterprise Boundary
 !$ENTERPRISE_BOUNDARY_COLOR ?= "#"00154B"
