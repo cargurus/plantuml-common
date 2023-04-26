@@ -4,14 +4,22 @@
 !define FONTAWESOME https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/font-awesome-5
 !include FONTAWESOME/users.puml
 
-'Styles
+'Tags
 AddPersonTag("multi-user", $sprite="users", $legendText="group")
 AddElementTag("robot", $sprite="robot", $legendText="robot")
 AddRelTag("async", $techn="async", $lineStyle=DottedLine(), $legendText="asynchronous (dotted)")
 AddRelTag("external", $lineColor="#ca911b", $textColor="#ca911b", $legendText="external relationship")
-AddBoundaryTag("boundaryRed", $fontColor="#76002e", $borderColor="#76002e", $legendText="custom boundary red")
-AddBoundaryTag("boundaryPurple", $fontColor="#5E006E", $borderColor="#5E006E", $legendText="custom boundary purple")
-UpdateElementStyle("boundary", $fontColor="#00AA55", $borderColor="#00AA55", $legendText="default boundary")
-UpdateBoundaryStyle("enterprise", $fontColor="#00154b", $borderColor="#00154b")
-UpdateBoundaryStyle("container", $fontColor="#2971b7", $borderColor="#2971b7")
-UpdateBoundaryStyle("system", $fontColor="#0c4984", $borderColor="#0c4984")
+AddBoundaryTag("boundaryRed", $fontColor="#76002e", $borderColor="#76002e")
+AddBoundaryTag("boundaryPurple", $fontColor="#5E006E", $borderColor="#5E006E")
+
+'Default Boundary
+!$BOUNDARY_BORDER_COLOR ?= "#00AA55"
+
+'Container Boundary
+!$CONTAINER_BOUNDARY_COLOR ?= "#2971B7"
+
+'System Boundary
+!$SYSTEM_BOUNDARY_COLOR ?= "#0C4984"
+
+'Enterprise Boundary
+!$ENTERPRISE_BOUNDARY_COLOR ?= "#"00154B"
