@@ -4,6 +4,13 @@ PlantUML supports defining themes which can be used to control color, font, and 
 
 ## Using theme files
 
+To use a theme file, within your plantUML diagram you should use an `!theme` directive and specify the [raw location](https://docs.github.com/en/enterprise-cloud@latest/repositories/working-with-files/using-files/viewing-a-file#viewing-or-copying-the-raw-file-content) of the `themes` folder in this repo.  For more details see the PlantUML docs on using [Themes from the Internet](https://plantuml.com/theme#f701ab9af850cc25).
+
+### Example
+```text
+!theme CarGurus-C4-default from https://raw.githubusercontent.com/cargurus/plantuml-common/main/themes
+```
+
 ## Creating theme files
 
 For how to author theme files, review the C4-PlantUML [Themes README file](https://github.com/kirchsth/C4-PlantUML/blob/extended/Themes.md).
