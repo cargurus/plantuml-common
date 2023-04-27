@@ -9,7 +9,7 @@ The contents of this repo are public and must remain so in order that these comm
 
 ## Styles
 
-[Styles](/styles) offer support for simplified, high-level control of colors, fonts, and other changes to the rendered appearance of PlantUML files.
+[Styles](/styles) offer support for simplified, high-level control of colors, fonts, and other changes to the rendered appearance of PlantUML files.  Because they are more user friendly we recommend use of styles in preference to theme files.
 
 ## Themes
 
