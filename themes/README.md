@@ -8,7 +8,7 @@ PlantUML supports defining themes which can be used to control color, font, and 
 
 For how to author theme files, review the C4-PlantUML [Themes README file](https://github.com/kirchsth/C4-PlantUML/blob/extended/Themes.md).
 
-Themes are useful but [style files](/styles/README.md) can fulfill most purposes that themes doe and are generally easier to author because you can use higher level macros to express your choices.
+Themes are useful but [style files](/styles/README.md) can fulfill most purposes that themes do and are simpler to author because you can use higher level macros to express your choices.
 
 ### Naming theme files
 
