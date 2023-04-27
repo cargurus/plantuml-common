@@ -12,7 +12,7 @@ Themes are useful but [style files](/styles/README.md) can fulfill most purposes
 
 ### Naming theme files
 
-CarGurus theme files should be named `puml-theme-CarGurus-[your-theme-name].puml`.  Additionally, the theme name within the file must exactly match the `CarGurus-[your-theme-name]` portion of the file name.  So the first line of your theme file should be:
+CarGurus theme files should be named `puml-theme-CarGurus-[your-exact-theme-name].puml`.  Additionally, the theme name within the file must exactly match the `CarGurus-[your-exact-theme-name]` portion of the file name.  So the first line of your theme file should be:
 
 ```text
 !$THEME = "CarGurus-[your-exact-theme-name]"
