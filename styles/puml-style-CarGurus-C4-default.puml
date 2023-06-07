@@ -4,6 +4,7 @@
 'Tags
 AddPersonTag("multi-user", $sprite="users", $legendText="group")
 AddElementTag("robot", $sprite="robot", $legendText="robot")
+AddElementTag("job", $shape=EightSidedShape(), $bgColor=green, $legendText="job or script")
 AddRelTag("async", $techn="async", $lineStyle=DottedLine(), $legendText="asynchronous (dotted)")
 AddRelTag("external", $lineColor="#ca911b", $textColor="#ca911b", $legendText="external relationship")
 AddBoundaryTag("boundaryRed", $fontColor="#76002e", $borderColor="#76002e", $legendText="custom boundary red")
